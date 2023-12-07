@@ -2,11 +2,12 @@
 using namespace std;
 int main()
 {
-    float pi=3.14159, r, volume;
+    double pi=3.14159, r;
+    double volume;
     cin >> r;
 
     volume = (4.0/3)*pi*(r*r*r);
     
-    printf("VOLUME = %.3f", volume);
+    printf("VOLUME = %.3lf\n", volume);
     return 0;
 }
